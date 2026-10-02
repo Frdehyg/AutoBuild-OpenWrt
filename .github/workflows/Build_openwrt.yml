@@ -55,7 +55,7 @@ jobs:
     - name: Clone source code
       env: 
         REPO_URL: https://github.com/Frdehyg/openwrt
-        REPO_BRANCH: v25.12.5
+        REPO_BRANCH: my-openwrt-v25.12.5
       run: |
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
 
